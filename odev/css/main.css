@@ -1,0 +1,17 @@
+.navbar-nav > .active > a {
+    color: aqua;
+    background-color: chartreuse;
+}
+.nav-item > a:hover {
+    color: aqua;
+}
+
+.bd-navbar {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1071;
+    min-height: 4rem;
+    background-color: #563d7c;
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 5%), inset 0 -1px 0 rgb(0 0 0 / 10%);
+}
